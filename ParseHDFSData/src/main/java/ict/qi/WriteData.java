@@ -17,7 +17,7 @@ public class WriteData {
 		"eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
 	};
 	public static void main(String args[]){
-		String file="hdfs://data12:9000/parsedata/write-data";
+		String file="hdfs://data7:9000/parsedata/write-data";
 		Path path = new Path(file);
 		Configuration conf = new Configuration();
 		FileSystem fs =null;
